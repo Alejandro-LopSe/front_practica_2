@@ -5,7 +5,7 @@ const slugsout: string[] = []
 const slugssave: string[] = []
 
 const random = ()=>{
-  let x = Math.floor(Math.random()*4)
+  const x = Math.floor(Math.random()*4)
   if(x<2)return "Hybrid"
   return "Face to face"
 }
